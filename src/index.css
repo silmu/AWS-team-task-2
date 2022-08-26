@@ -1,13 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  max-width: 1200px;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+h2 {
+  font-weight: normal;
+  padding: 1rem;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+/*.............. Front page ................*/
+
+header {
+  width: 100vw;
+  max-width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  margin: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header h1 {
+  padding: 0;
+}
+
+.heroBanner {
+  /* background: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'); */
+  background-position: center center;
+  background-size: cover;
+  min-height: 60vh;
+  width: 100vw;
+  max-width: 1200px;
+  max-height: 70vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.video {
+  width: 100vw;
+}
+
+.heroBannerContent {
+  position: absolute;
+  top: 30vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 1rem;
+  color: white;
+  backdrop-filter: blur(3px);
+}
+
+.heroBannerContent button {
+  margin-top: 1rem;
+  border: 1px solid white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: invert();
+}
+.bottomContainer {
+  display: flex;
+  width: 100vw;
+  max-width: 1200px;
+}
+
+.link {
+  display: inline-block;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+/*.............. Recipes ................*/
+.search {
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.search input {
+  display: block;
+  padding: 0.5rem;
+  width: 30vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+/*.............. Recipe card ................*/
+.recipe {
+  margin: 0.5rem;
+  width: 300px;
+  height: 420px;
+  padding: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.flagContainter {
+  position: absolute;
+  width: 80px;
+  overflow: hidden;
+}
+
+.flag {
+  position: relative;
+  width: 80px;
+  top: 0.5rem;
+  left: 0;
+}
+
+.imageContainer {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.recipe img {
+  width: 90%;
+  max-height: 300px;
+}
+
+.recipe:hover {
+  box-shadow: 3px 3px 3px rgb(236, 236, 236);
+  transform: scale(1.01);
+  transition: all 0.2s;
+}
+
+/*................... Form ...................*/
+.addNewRecipe {
+  padding: 1rem;
+}
+
+label {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5rem 0;
+  width: 150px;
+}
+
+input,
+textarea {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 250px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+select {
+  width: 250px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+/*........... Ingredients ..............*/
+.addNewRecipe h2 {
+  padding: 0.5rem 0;
+}
+
+.formIngredient {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.formIngredients button {
+  display: inline-block;
+}
+
+.formIngredient :nth-child(1),
+.formIngredient :nth-child(2),
+.formIngredient label,
+.formIngredient input {
+  display: inline-block;
+  width: fit-content;
+}
+
+.formIngredient label {
+  padding-top: 0.8rem;
+}
+
+.formIngredient .quantity input {
+  width: 80px;
+}
+
+.formIngredient .ingredientName input {
+  width: 250px;
+}
+
+/*............. Recipe single ...............*/
+.recipeSingle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipeSingle h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 0;
+}
+
+.leftContainer,
+.rightContainer {
+  width: 50vw;
+  min-width: 200px;
+  padding: 1rem;
+  background-color: white;
+}
+
+.leftContainer img {
+  max-height: 50vh;
+}
+
+.leftContainer .flag {
+  position: relative;
+  top: 60px;
+}
+
+.ingredients {
+  border: 1px solid lightgray;
+  background-color: rgb(242, 242, 242);
+  padding: 0.5rem;
 }

@@ -1,0 +1,156 @@
+{
+  "recipes": [
+    {
+      "name": "Pannukakku",
+      "author": "Mary",
+      "country": "Finland",
+      "flag": "https://flagcdn.com/fi.svg",
+      "description": "Yummy pancakes",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "flour",
+          "quantity": "2 cups"
+        },
+        {
+          "id": 2,
+          "ingredient": "sugar",
+          "quantity": "0.5 cup"
+        },
+        {
+          "id": 3,
+          "ingredient": "milk",
+          "quantity": "0.5 liter"
+        },
+        {
+          "id": 4,
+          "ingredient": "baking powder",
+          "quantity": "0.5 tspn"
+        }
+      ],
+      "instructions": "Fry in a pan",
+      "image": "https://images.unsplash.com/photo-1597524305544-cd821476715f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+      "id": 1
+    },
+    {
+      "name": "Black Forest Cake",
+      "author": "John",
+      "country": "United Kingdom",
+      "flag": "https://flagcdn.com/gb.svg",
+      "description": "Delicious cake",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "flour",
+          "quantity": "1 kg"
+        },
+        {
+          "id": 2,
+          "ingredient": "sugar",
+          "quantity": "2 cups"
+        },
+        {
+          "id": 3,
+          "ingredient": "baking powder",
+          "quantity": "1 tspn"
+        }
+      ],
+      "instructions": "Bake in an over at 180C.",
+      "image": "https://images.unsplash.com/photo-1643733645069-76bac4462103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "id": 2
+    },
+    {
+      "name": "Pizza",
+      "author": "Mary",
+      "country": "Italy",
+      "flag": "https://flagcdn.com/it.svg",
+      "description": "Yummy pizza",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "flour",
+          "quantity": "1 kg"
+        },
+        {
+          "id": 2,
+          "ingredient": "cheese",
+          "quantity": "2 cups"
+        }
+      ],
+      "instructions": "Bake it",
+      "image": "https://cdn.valio.fi/mediafiles/735b79c8-e8f8-4f46-ac22-770103a4facb/1600x1200-recipe-data/4x3/pizza.jpg",
+      "id": 3
+    },
+    {
+      "name": "Fruit cake",
+      "author": "Mary",
+      "country": "Caribbean Netherlands",
+      "flag": "https://flagcdn.com/bq.svg",
+      "description": "Yummy cake",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "flour",
+          "quantity": "1 kg"
+        },
+        {
+          "id": 2,
+          "ingredient": "sugar",
+          "quantity": "2 cups"
+        }
+      ],
+      "instructions": "Bake",
+      "image": "https://bakewithshivesh.com/wp-content/uploads/2021/06/IMG_9642-scaled.jpg",
+      "id": 4
+    },
+    {
+      "name": "Feta salad",
+      "author": "Mark",
+      "country": "Greece",
+      "flag": "https://flagcdn.com/gr.svg",
+      "description": "Fresh salad",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "lettuce",
+          "quantity": "1"
+        },
+        {
+          "id": 2,
+          "ingredient": "tomatoes",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "ingredient": "cucumber",
+          "quantity": "1"
+        }
+      ],
+      "instructions": "Cut and mix",
+      "image": "https://images.unsplash.com/photo-1549745708-fa4a8423a0b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80\"",
+      "id": 5
+    },
+    {
+      "name": "Birthday cake",
+      "author": "John",
+      "country": "United States",
+      "flag": "https://flagcdn.com/us.svg",
+      "description": "Colorful cake",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "flour",
+          "quantity": "1 kg"
+        },
+        {
+          "id": 2,
+          "ingredient": "sugar",
+          "quantity": "2 cups"
+        }
+      ],
+      "instructions": "Bake",
+      "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "id": 6
+    }
+  ]
+}
